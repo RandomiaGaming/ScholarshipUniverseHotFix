@@ -1,0 +1,19 @@
+{
+  "name": "ScholarshipUniverseHotFix",
+  "version": "1.0.0.0",
+  "manifest_version": 2,
+  "description": "Removes the save icon from scholarshipuniverse.com so you can type without interuptions.",
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
